@@ -8,7 +8,7 @@ app.use(cors())
 
 
 app.get('/',(req,res)=>{
-    res.json({message:"hello aws",tes:"test"})
+    res.json({message:"hello aws"})
 })
 
 const PORT = process.env.port || 8080
